@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #073b4c;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+    background-color: #1389b2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fizz {
+    background-color: #0bd6a0;
+}
+.buzz {
+    background-color: #ffd166;
+}
+.fizz-buzz {
+    background-color: #f0466f;
+}
