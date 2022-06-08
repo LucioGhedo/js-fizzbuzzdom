@@ -1,4 +1,4 @@
-for(let i = 0; i <= 100; i++) {
+for(let i = 1; i <= 100; i++) {
     let fizzBuzz;
     if(i % 3 === 0 && i % 5 === 0) {
         fizzBuzz = 'FizzBuzz';
